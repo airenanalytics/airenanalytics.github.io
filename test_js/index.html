@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="validate.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="form-container">
+        <form id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLScqocNrZ9K20DXcWpF6e_ohHYcPUMBfu85mSfwIzgicx665NA/formResponse" method="post">
+            <div class="mb-3 w-25 pt-4 ps-3">
+                <label for="entry.1555942851" class="form-label">Name</label>
+                <input id="entry.1555942851" type="text" class="form-control" name="entry.1555942851">
+                <small id="nameError" class="text-danger" style="display:none;">Name is required</small>
+            </div>
+            <div class="mb-3 w-25 ps-3">
+                <label for="entry.1388118104" class="form-label">Email</label>
+                <input id="entry.1388118104" type="email" class="form-control" name="entry.1388118104">
+                <small id="emailError" class="text-danger" style="display:none;">Valid email is required</small>
+            </div>
+            <div class="mb-3 w-25 ps-3">
+                <label for="entry.1166981533" class="form-label">Enquiry</label>
+                <textarea id="entry.1166981533" class="form-control" name="entry.1166981533" rows="10"></textarea>
+                <small id="enquiryError" class="text-danger" style="display:none;">What's your enquiry about?</small>
+            </div>
+            <div class="pt-2 ps-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+    <!-- Success message placeholder -->
+    <div id="success-message" class="alert alert-success mt-3" style="display:none;">
+        Your form has been successfully submitted. Thank you!
+    </div>
+    <!-- Test modal again -->
+    <div id="modal-submission" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body alert alert-success">
+              <p>Message successfully sent!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

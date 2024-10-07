@@ -1,0 +1,411 @@
+@media screen and (min-width: 431px) {
+    /* Hide section for desktop view */
+    #service-offering-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    /* Nav bar - mobile view */
+    .navbar-nav .cta_book_button {
+        color: #C32029;
+        font-weight: 800;
+        background-color: none;
+        background: none;
+        font-size: 16px;
+    }
+    
+    .navbar-nav .cta_book_button:hover {
+        color: black;
+        background-color: none;
+        background: none;
+    }
+
+    /* Hero page - mobile view */
+    #hero-landing {
+        margin-top: 2vh;
+        height: 100%;
+        margin-bottom: 5vh;
+    }
+
+    .hero-title {
+        font-weight: 800;
+        font-size: 30px;
+        color: #0047AB;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .hero-title-effect {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 6px;
+    }
+
+    .hero-image-container {
+        margin-top: 5vh;
+    }
+
+    .hero-image {
+        width: 280px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-subtitle-text {
+        width: 100%;
+        margin-bottom: 25px;
+        font-weight: 200;
+    }
+
+    /* Serivces page */
+    #services-main-title {
+        padding-top: 5vh;
+        padding-bottom: 0;
+    }
+
+    .services-title {
+        font-size: 28px;
+    }
+
+    .services-subtitle {
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 67%;
+    }
+
+    /* Hide section for mobile view */
+    #service-offering {
+        display: none;
+    }
+
+    #service-offering-mobile {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 340px;
+        height: 350px;
+        padding: 20px;
+        /* box-shadow:
+        0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075),
+        0 4px 4px hsl(0deg 0% 0% / 0.075), */
+        /* 0 8px 8px hsl(0deg 0% 0% / 0.075), */
+        /* 0 16px 16px hsl(0deg 0% 0% / 0.075); */
+        box-shadow: none;
+    }
+    
+    .service-card-button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        background-color: #0047AB;
+        padding: 5px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        text-decoration: none;
+        color: #F2F4FB;;
+    }
+
+    .service-card > h4,
+    .service-card > p {
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #service-offering {
+        padding-bottom: 5vh;
+    }
+
+    .service-card-container-top, 
+    .service-card-container-bottom {
+        display: flex;
+        flex-direction: column;
+        /* gap: 10px; */
+        align-items: center;
+    }
+
+    .service-card-container-top {
+        margin-bottom: 1vh;
+    }
+
+    /* FAQ section */
+    #faq {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .faq-title-container > h1 {
+        width: 300px;
+        font-size: 28px;
+    }
+
+    .accordion-container {
+        width: 90%;
+    }
+
+    .accordion-header .accordion-button {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    
+    .accordion-button:not(.collapsed) {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+
+    .modal {
+        width: 90%;
+    }
+
+    /* Service details - mobile view */
+    #predictive-analytics,
+    #nlp,
+    #descriptive-data-analytics,
+    #data-visualization,
+    #data-scraping {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .predictive-analytics-container,
+    .nlp-container,
+    .descriptive-data-analytics-container,
+    .data-visualization-container,
+    .data-scraping-container {
+        width: 90%;
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .predictive-analytics-container > p,
+    .nlp-container > p,
+    .descriptive-data-analytics-container > p,
+    .data-visualization-container > p,
+    .data-scraping-container  > p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    /* Use cases - mobile view */
+    #use-cases-main-title {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .use-cases-title {
+        font-weight: 800;
+        text-align: center;
+        font-size: 28px;
+        color: #0047AB;
+    }
+
+    .use-cases-subtitle {
+        width: 67%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .use-cases-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .use-cases-items-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .use-cases-item {
+        border: solid 2px black;
+        border-radius: 10px;
+        background-color: #F2F4FB;
+        padding: 10px 25px;
+    }
+
+    .use-cases-image {
+        padding-top: 5vh;
+        width: 300px;
+    }
+
+    /* Use case items - mobile view */
+    #use-case-item {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .use-case-item-header-container {
+        width: 90%;
+        margin-bottom: 5vh;
+    }
+
+    .use-case-item-header-title {
+        font-size: 28px;
+        font-weight: 800;
+        width: 380px;
+    }
+
+    .use-case-item-container {
+        flex-flow: column;
+        gap: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .use-case-item-value-add-card {
+        padding: 35px;
+    }
+
+    .use-case-item-generic-card {
+        padding: 35px;
+    }
+
+    .use-case-item-right-container {
+        padding: 40px;
+    }
+
+    /* Mission - mobile view */
+    #mission {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .mission-title {
+        font-weight: 800;
+        text-align: center;
+        font-size: 28px;
+        color: #0047AB;
+    }
+
+    .mission-container {
+        width: 90%;
+        flex-direction: column;
+        
+    }
+
+    .mission-text-container > p {
+        line-height: 28px;
+    }
+
+    .mission-image-container {
+        margin-top: -30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mission-image {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* About Us - mobile view */
+    #about {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .about-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .about-content-title h1 {
+        font-size: 28px;
+    }
+
+    .about-content > p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+
+    .about-image {
+        width: 350px;
+    }
+
+    /* Contact us page - mobile view */
+    #contact-us {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .contact-us-content > h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    /* Footer - mobile view */
+    .footer-brand-links-containter {
+        flex-direction: column;
+    }
+
+    .footer-brand {
+        font-size: 22px;
+        margin-left: 32px;
+    }
+
+    .footer-link-title {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .footer-links > li {
+        list-style: none;
+        margin-bottom: 15px;
+    }
+
+    .footer-links > li > a {
+        font-weight: 200;
+        font-size: 14px;
+    }
+
+    .footer-horizontal-line {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .footer-copyright {
+        margin-left: 32px;
+    }
+}
