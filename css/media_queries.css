@@ -23,7 +23,7 @@
 
     /* Hero page - mobile view */
     #hero-landing {
-        margin-top: 2vh;
+        margin-top: 5vh;
         height: 100%;
         margin-bottom: 5vh;
     }
@@ -35,7 +35,7 @@
     }
 
     .hero-subtitle {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 28px;
     }
 
