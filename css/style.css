@@ -109,10 +109,21 @@ body {
 }
 
 .services-title {
-    font-weight: 800;
+    /* font-weight: 800;
     text-align: center;
     font-size: 36px;
-    color: #0047AB;
+    color: #0047AB; */
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background: #0037AB;
+    border-radius: 20px;
+    width: 130px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .services-subtitle {
@@ -255,10 +266,17 @@ body {
 }
 
 .use-cases-title {
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
-    font-size: 36px;
-    color: #0047AB;
+    font-size: 14px;
+    color: white;
+    background: #0037AB;
+    border-radius: 20px;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .use-cases-subtitle {
@@ -484,19 +502,39 @@ body {
     z-index: -1;
 }
 
-
 /* Mission page */
 #mission {
     margin-top: 10vh;
     margin-bottom: 5vh;
 }
 
-.mission-title {
-    font-weight: 800;
+.mission-title h1 {
+    font-weight: 600;
     text-align: center;
-    font-size: 36px;
-    color: #0047AB;
-    margin-bottom: 5vh;
+    font-size: 14px;
+    color: white;
+    background: #0037AB;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.mission-text-container .mission-quote {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 25px;
+    color:#0047AB;
+    border-top: 1px #0047AB solid;
+    border-bottom: 1px #0047AB solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mission-quote-style {
+    font-size: 28px;
+    font-family: Proza Libre, serif
 }
 
 .mission-container {
@@ -523,19 +561,40 @@ body {
     margin-bottom: 5vh;
 }
 
+.about-content-title h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background: #0037AB;
+    border-radius: 20px;
+    width: 130px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.about-content .about-quote {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 25px;
+    color:#0047AB;
+    border-top: 1px #0047AB solid;
+    border-bottom: 1px #0047AB solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about-quote-style {
+    font-size: 28px;
+    font-family: Proza Libre, serif
+}
+
 .about-container {
     display: flex;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.about-content-title h1 {
-    font-weight: 800;
-    text-align: center;
-    font-size: 36px;
-    color: #0047AB;
-    margin-bottom: 5vh;
 }
 
 .about-content > p {
@@ -548,42 +607,35 @@ body {
     width: 450px;
 }
 
-/* Book session page */
-#book-call-section {
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-}
-
-.book-call-content {
-    text-align: center;
-}
-
-.book-call-content h1 {
-    font-weight: 800;
-    text-align: center;
-    font-size: 36px;
-    color: #0047AB;
-}
-
 /* Contact us page */
 #contact-us {
     margin-top: 10vh;
     margin-bottom: 10vh;
 }
 
-.contact-us-content > h1 {
-    font-weight: 800;
-    font-size: 36px;
-    color: #0047AB;
+.contact-us-content {
+    width: 350px;
+}
+.contact-us-content h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background: #0037AB;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-us-content p {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .contact-email {
     text-decoration: none;
     color: black;
-}
-
-.email-msg-desktop {
-    font-size: 20px;
 }
 
 .email-msg-mobile {

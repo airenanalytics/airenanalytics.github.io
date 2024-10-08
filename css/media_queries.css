@@ -94,9 +94,9 @@
         padding-bottom: 0;
     }
 
-    .services-title {
+    /* .services-title {
         font-size: 32px;
-    }
+    } */
 
     .services-subtitle {
         font-size: 20px;
@@ -247,12 +247,12 @@
         padding-bottom: 5vh;
     }
 
-    .use-cases-title {
+    /* .use-cases-title {
         font-weight: 800;
         text-align: center;
         font-size: 32px;
         color: #0047AB;
-    }
+    } */
 
     .use-cases-subtitle {
         font-size: 20px;
@@ -397,10 +397,6 @@
         width: 90%;
     }
 
-    .about-content-title h1 {
-        font-size: 32px;
-    }
-
     .about-content > p {
         font-size: 20px;
         font-weight: 300;
@@ -425,13 +421,8 @@
         font-size: 20px !important;
     }
 
-    .contact-us-content > h1 {
-        font-size: 32px;
-        margin-bottom: 40px;
-        text-align: center;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+    .contact-us-content > p {
+        font-weight: 300;
     }
 
     .container {
@@ -461,7 +452,6 @@
     }
 
     .book-call-content {
-        /* text-align: center; */
         display: none;
     }
 
