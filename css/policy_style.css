@@ -1,0 +1,108 @@
+/* CSS styling for privacy and T&C documents */
+
+/* Private policy header */
+#privacy-policy-header {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.privacy-policy-header-container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privacy-policy-header-container h1 {
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #0047AB;
+}
+
+.privacy-policy-content {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privacy-policy-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.privacy-policy-header-container p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* Private policy content */
+.privacy-policy-content strong {
+    font-weight: 800;
+}
+
+.privacy-policy-content p,
+.privacy-policy-content li {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.private-policy-body-container {
+    margin-bottom: 10vh;
+}
+
+/* Terms & Conditions header */
+#terms-header {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.terms-header-container h1 {
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #0047AB;
+}
+.terms-header-container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privacy-policy-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Terms & Condition content */
+.terms-body-container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+
+.terms-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.terms-content p,
+.terms-content li {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Styling for mobile view */
+@media screen and (max-width: 430px) {
+    .privacy-policy-content p,
+    .privacy-policy-content li,
+    .privacy-policy-content h3,
+    .privacy-policy-content h5,
+    .terms-content p,
+    .terms-content li,
+    .terms-content h3 {
+        line-height: 38px;
+    }
+}
