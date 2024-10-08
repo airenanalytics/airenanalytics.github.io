@@ -7,18 +7,29 @@
 
 @media screen and (max-width: 430px) {
     /* Nav bar - mobile view */
+    .navbar .navbar-brand {
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: -2px;
+    }
+
     .navbar-nav .cta_book_button {
         color: #C32029;
         font-weight: 800;
         background-color: none;
         background: none;
-        font-size: 16px;
+        font-size: 18px;
     }
     
     .navbar-nav .cta_book_button:hover {
         color: black;
         background-color: none;
         background: none;
+    }
+
+    .navbar-nav > a {
+        font-size: 18px;
+        color: black;
     }
 
     /* Hero page - mobile view */
@@ -30,13 +41,13 @@
 
     .hero-title {
         font-weight: 800;
-        font-size: 30px;
+        font-size: 36px;
         color: #0047AB;
     }
 
     .hero-subtitle {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .hero-title-effect {
@@ -68,6 +79,15 @@
         font-weight: 200;
     }
 
+    .hero-cta-button {
+        text-decoration: none;
+        color: #F2F4FB;
+        background-color: #C32029;
+        border-radius: 13px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
     /* Serivces page */
     #services-main-title {
         padding-top: 5vh;
@@ -75,11 +95,12 @@
     }
 
     .services-title {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .services-subtitle {
-        font-size: 16px;
+        font-size: 20px;
+        line-height: 30px;
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
@@ -119,14 +140,22 @@
         background-color: #0047AB;
         padding: 5px 20px;
         border-radius: 20px;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 300;
         text-decoration: none;
         color: #F2F4FB;;
     }
 
-    .service-card > h4,
+    .service-card > h4 {
+        font-size: 26px;
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .service-card > p {
+        font-size: 20px;
+        line-height: 30px;
         width: 87%;
         margin-left: auto;
         margin-right: auto;
@@ -156,7 +185,7 @@
 
     .faq-title-container > h1 {
         width: 300px;
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .accordion-container {
@@ -165,19 +194,19 @@
 
     .accordion-header .accordion-button {
         display: inline-block;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 300;
         line-height: 30px;
     }
     
     .accordion-button:not(.collapsed) {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 500;
         line-height: 30px;
     }
 
     .accordion-body {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 300;
         line-height: 30px;
     }
@@ -227,11 +256,13 @@
     .use-cases-title {
         font-weight: 800;
         text-align: center;
-        font-size: 28px;
+        font-size: 32px;
         color: #0047AB;
     }
 
     .use-cases-subtitle {
+        font-size: 20px;
+        line-height: 30px;
         width: 67%;
         margin-left: auto;
         margin-right: auto;
@@ -251,11 +282,13 @@
         margin-right: auto;
     }
 
-    .use-cases-item {
-        border: solid 2px black;
-        border-radius: 10px;
-        background-color: #F2F4FB;
-        padding: 10px 25px;
+    .use-cases-item > a > h4 {
+        font-size: 24px;
+    }
+    
+    .use-cases-item > a > p {
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .use-cases-image {
@@ -277,7 +310,7 @@
     .use-case-item-header-title {
         font-size: 28px;
         font-weight: 800;
-        width: 380px;
+        width: 350px;
     }
 
     .use-case-item-container {
@@ -300,6 +333,33 @@
         padding: 40px;
     }
 
+    /* Use case items details - mobile page */
+    .use-case-item-value-add-card > h4,
+    .use-case-item-generic-card > h4 {
+        font-size: 24px;
+    }
+    
+    .use-case-item-value-add-card > p,
+    .use-case-item-generic-card > p,
+    .use-case-item-right-container > p,
+    .use-case-item-right-container > ul > li {
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .bg_img_blob1 {
+        position:absolute;
+        left: -23%;
+        top: 18%;
+        height: 400px;
+        z-index: -1;
+    }
+    
+    .bg_img_blob2 {
+        display: none;
+    }
+
     /* Mission - mobile view */
     #mission {
         margin-top: 5vh;
@@ -307,10 +367,7 @@
     }
 
     .mission-title {
-        font-weight: 800;
-        text-align: center;
-        font-size: 28px;
-        color: #0047AB;
+        font-size: 32px;
     }
 
     .mission-container {
@@ -320,7 +377,8 @@
     }
 
     .mission-text-container > p {
-        line-height: 28px;
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .mission-image-container {
@@ -346,13 +404,13 @@
     }
 
     .about-content-title h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .about-content > p {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 300;
-        line-height: 28px;
+        line-height: 32px;
     }
 
     .about-image {
@@ -366,13 +424,37 @@
     }
 
     .contact-us-content > h1 {
-        font-size: 28px;
-        margin-bottom: 20px;
+        font-size: 32px;
+        margin-bottom: 40px;
         text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .container {
         width: 100% !important;
+    }
+
+    /* Book session page */
+    #book-call-section {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .book-call-content {
+        /* text-align: center; */
+        display: none;
+    }
+
+    .book-call-content h1 {
+        font-weight: 800;
+        text-align: center;
+        font-size: 32px;
+        color: #0047AB;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Footer - mobile view */
@@ -381,13 +463,13 @@
     }
 
     .footer-brand {
-        font-size: 22px;
+        font-size: 24px;
         margin-left: 32px;
     }
 
     .footer-link-title {
         font-weight: 600;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .footer-links > li {
@@ -397,7 +479,7 @@
 
     .footer-links > li > a {
         font-weight: 200;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .footer-horizontal-line {
