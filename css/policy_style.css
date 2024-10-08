@@ -47,7 +47,7 @@
     font-weight: 300;
 }
 
-.private-policy-body-container {
+.privacy-policy-body-container {
     margin-bottom: 10vh;
 }
 
@@ -96,6 +96,15 @@
 
 /* Styling for mobile view */
 @media screen and (max-width: 430px) {
+    .privacy-policy-header-container,
+    .privacy-policy-content,
+    .terms-header-container,
+    .terms-body-container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .privacy-policy-content p,
     .privacy-policy-content li,
     .privacy-policy-content h3,
