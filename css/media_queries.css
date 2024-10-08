@@ -423,6 +423,14 @@
         margin-bottom: 5vh;
     }
 
+    .form-label {
+        font-size: 20px;
+    }
+
+    .contact-btn {
+        font-size: 20px !important;
+    }
+
     .contact-us-content > h1 {
         font-size: 32px;
         margin-bottom: 40px;
@@ -434,6 +442,22 @@
 
     .container {
         width: 100% !important;
+    }
+
+    .email-msg-desktop {
+        display: none;
+    }
+
+    .email-msg-mobile {
+        display: inline;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .email-container {
+        width: 75% !important;
+        text-align: center !important;
+        margin: auto !important;
     }
 
     /* Book session page */

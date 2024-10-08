@@ -628,6 +628,15 @@ body {
     color: #0047AB;
 }
 
+.contact-email {
+    text-decoration: none;
+    color: black;
+}
+
+.email-msg-mobile {
+    display: none;
+}
+
 #contact-form {
     background-color: #F2F4F8;
     border: solid rgb(226, 225, 225) 1px;
