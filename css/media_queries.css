@@ -417,32 +417,18 @@
         font-size: 20px;
     }
 
+    .form-container {
+        width: 90%;
+    }
+
+    .form-header-body p,
+    .form-footer-container {
+    font-size: 20px;
+    line-height: 30px;
+}
+
     .contact-btn {
         font-size: 20px !important;
-    }
-
-    .contact-us-content > p {
-        font-weight: 300;
-    }
-
-    .container {
-        width: 100% !important;
-    }
-
-    .email-msg-desktop {
-        display: none;
-    }
-
-    .email-msg-mobile {
-        display: inline;
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .email-container {
-        width: 75% !important;
-        text-align: center !important;
-        margin: auto !important;
     }
 
     /* Book session page */

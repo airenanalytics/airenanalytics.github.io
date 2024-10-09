@@ -70,9 +70,6 @@ body {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
-    /* background-image: linear-gradient(0deg, #0047AB, #9cb9e2);
-    color: transparent;
-    background-clip: text; */
 }
 
 .hero-image {
@@ -109,14 +106,10 @@ body {
 }
 
 .services-title {
-    /* font-weight: 800;
-    text-align: center;
-    font-size: 36px;
-    color: #0047AB; */
     font-weight: 600;
     text-align: center;
     font-size: 14px;
-    color: white;
+    color: #F2F4FB;
     background: #0037AB;
     border-radius: 20px;
     width: 130px;
@@ -269,7 +262,7 @@ body {
     font-weight: 600;
     text-align: center;
     font-size: 14px;
-    color: white;
+    color: #F2F4FB;
     background: #0037AB;
     border-radius: 20px;
     width: 120px;
@@ -512,7 +505,7 @@ body {
     font-weight: 600;
     text-align: center;
     font-size: 14px;
-    color: white;
+    color: #F2F4FB;
     background: #0037AB;
     border-radius: 20px;
     width: 100px;
@@ -565,7 +558,7 @@ body {
     font-weight: 600;
     text-align: center;
     font-size: 14px;
-    color: white;
+    color: #F2F4FB;
     background: #0037AB;
     border-radius: 20px;
     width: 130px;
@@ -613,14 +606,18 @@ body {
     margin-bottom: 10vh;
 }
 
-.contact-us-content {
-    width: 350px;
+.form-container {
+    background-color: #F2F4F8;
+    border: solid rgb(227, 226, 233) 1px;
+    border-radius: 10px;
+    width: 50%;
 }
-.contact-us-content h1 {
+
+.form-header-title h1 {
     font-weight: 600;
     text-align: center;
     font-size: 14px;
-    color: white;
+    color: #F2F4FB;
     background: #0037AB;
     border-radius: 20px;
     width: 100px;
@@ -628,7 +625,8 @@ body {
     margin-bottom: 10px;
 }
 
-.contact-us-content p {
+.form-header-body p,
+.form-footer-container {
     font-size: 16px;
     font-weight: 300;
 }
@@ -642,19 +640,15 @@ body {
     display: none;
 }
 
-#contact-form {
-    background-color: #F2F4F8;
-    border: solid rgb(226, 225, 225) 1px;
-}
-
 .contact-btn {
-    background-color: #0047AB !important;
+    background-color: #36454F !important;
     border: none !important;
-    border-radius: 20px !important;
+    border-radius: 13px !important;
 }
 
-.container {
-    width: 70% !important;
+.form-footer-container a {
+    text-decoration: none;
+    color: #0047AB;
 }
 
 /* Footer section - Generic desktop */

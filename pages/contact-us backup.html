@@ -38,43 +38,46 @@
 
     <!-- Contact us section -->
     <section id="contact-us">
-        <div class="form-container mx-auto shadow p-3">
-            <div class="form-header-container">
-                <div class="form-header-title mt-1 mb-4">
+        <div class="container mx-auto">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="contact-us-content me-sm-3">
                     <h1>Contact</h1>
-                </div>
-                <div class="form-header-body mb-4">
                     <p>
                         Send us an enquiry and we will get back to you. Prefer to email? We can also be reached 
                         at <a class="contact-email" href="mailto:info@airenanalytics.com">info@airenanalytics.com</a>
                     </p>
                 </div>
             </div>
-            <div class="contact-form">
-                <form id="contact-form" class="" action="https://docs.google.com/forms/d/e/1FAIpQLScqocNrZ9K20DXcWpF6e_ohHYcPUMBfu85mSfwIzgicx665NA/formResponse" method="post">
-                    <div class="mb-3">
-                        <label for="entry.1555942851" class="form-label">Name</label>
-                        <input id="entry.1555942851" type="text" class="form-control" name="entry.1555942851">
-                        <small id="nameError" class="text-danger" style="display:none;">Name is required</small>
+            <div class="col-sm-6">
+                <div class="contact-us-form shadow w-sm-50">
+                    <form id="contact-form" class="p-4" action="https://docs.google.com/forms/d/e/1FAIpQLScqocNrZ9K20DXcWpF6e_ohHYcPUMBfu85mSfwIzgicx665NA/formResponse" method="post">
+                        <div class="mb-4">
+                            <label for="entry.1555942851" class="form-label">Name</label>
+                            <input id="entry.1555942851" type="text" class="form-control" name="entry.1555942851">
+                            <small id="nameError" class="text-danger" style="display:none;">Name is required</small>
+                        </div>
+                        <div class="mb-4">
+                            <label for="entry.1388118104" class="form-label">Email</label>
+                            <input id="entry.1388118104" type="email" class="form-control" name="entry.1388118104">
+                            <small id="emailError" class="text-danger" style="display:none;">Valid email is required</small>
+                        </div>
+                        <div class="mb-4">
+                            <label for="entry.1166981533" class="form-label">Enquiry</label>
+                            <textarea id="entry.1166981533" class="form-control" name="entry.1166981533" rows="5"></textarea>
+                            <small id="enquiryError" class="text-danger" style="display:none;">What's your enquiry about?</small>
+                        </div>
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary btn-sm px-4 py-2 contact-btn">Submit</button>
+                        </div>
+                    </form>
+                    <!-- Success message placeholder -->
+                    <div id="success-message" class="alert alert-success mt-3" style="display:none;">
+                        Your form has been successfully submitted. Thank you!
                     </div>
-                    <div class="mb-3">
-                        <label for="entry.1388118104" class="form-label">Email</label>
-                        <input id="entry.1388118104" type="email" class="form-control" name="entry.1388118104">
-                        <small id="emailError" class="text-danger" style="display:none;">Valid email is required</small>
-                    </div>
-                    <div class="mb-3">
-                        <label for="entry.1166981533" class="form-label">Enquiry</label>
-                        <textarea id="entry.1166981533" class="form-control" name="entry.1166981533" rows="3"></textarea>
-                        <small id="enquiryError" class="text-danger" style="display:none;">What's your enquiry about?</small>
-                    </div>
-                    <div class="text-center mt-4">
-                        <button type="submit" class="btn btn-primary btn-sm px-4 py-2 contact-btn">Submit</button>
-                    </div>
-                </form>
+                </div>
             </div>
-            <div class="form-footer-container mt-3 text-center">
-                By submitting this form, you agree to our <a href="../pages/privacy.html" target="_blank">Privacy Policy</a>.
-            </div>
+        </div>
         </div>
     </section>
     <!-- Success modal here -->
